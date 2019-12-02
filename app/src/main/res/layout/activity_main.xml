@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Ganaanka Bhavan"
+        android:textColor="#03193d"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/image"
+        android:layout_marginBottom="30dp"
+       />
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pcm"
+        android:paddingBottom="25dp"/>
+
+    <TextView
+        android:id="@+id/father_stat"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Father of Statistical Science in India"
+        android:textSize="15sp"
+        android:textColor="#032a69"
+        android:paddingBottom="20dp"
+        />
+
+    <TextView
+        android:id="@+id/directorate"
+        android:layout_below="@id/father_stat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Directorate of Economics and Statistics"
+        android:textSize="12sp"
+        android:textColor="#032a69"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hyderabad"
+        android:textSize="10sp"
+        android:textColor="#032a69"
+        android:layout_below="@id/directorate"
+        />
+
+  <Button
+      android:id="@+id/next_btn"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentBottom="true"
+      android:layout_margin="20dp"
+      android:text="Next-->"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>
